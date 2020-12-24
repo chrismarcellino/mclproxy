@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		217792BF2593D3490089BE66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 217792BE2593D3490089BE66 /* AppDelegate.m */; };
+		217792C72593D34A0089BE66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217792C62593D34A0089BE66 /* Assets.xcassets */; };
+		217792CA2593D34A0089BE66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 217792C92593D34A0089BE66 /* main.m */; };
+		217792D02593D34A0089BE66 /* MCL Proxy Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 217792CF2593D34A0089BE66 /* MCL Proxy Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		217792D52593D34A0089BE66 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217792D42593D34A0089BE66 /* Cocoa.framework */; };
+		217792D92593D34A0089BE66 /* SafariWebExtensionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 217792D82593D34A0089BE66 /* SafariWebExtensionHandler.m */; };
+		217AA8EE259434B3001776F1 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217AA8ED259434A9001776F1 /* SafariServices.framework */; };
+		21951C8D2594507C0096BBF8 /* ToolbarItemIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 21951C8C2594507C0096BBF8 /* ToolbarItemIcon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		217792D12593D34A0089BE66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 217792B12593D3490089BE66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 217792CE2593D34A0089BE66;
+			remoteInfo = "MCLProxy Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		217792F22593D34A0089BE66 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				217792D02593D34A0089BE66 /* MCL Proxy Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		217792B92593D3490089BE66 /* MCL Proxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MCL Proxy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		217792BC2593D3490089BE66 /* MCLProxy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MCLProxy.entitlements; sourceTree = "<group>"; };
+		217792BD2593D3490089BE66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		217792BE2593D3490089BE66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		217792C62593D34A0089BE66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		217792C82593D34A0089BE66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		217792C92593D34A0089BE66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		217792CF2593D34A0089BE66 /* MCL Proxy Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MCL Proxy Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		217792D42593D34A0089BE66 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		217792D72593D34A0089BE66 /* SafariWebExtensionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafariWebExtensionHandler.h; sourceTree = "<group>"; };
+		217792D82593D34A0089BE66 /* SafariWebExtensionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariWebExtensionHandler.m; sourceTree = "<group>"; };
+		217792EB2593D34A0089BE66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		217792EC2593D34A0089BE66 /* MCLProxyExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MCLProxyExtension.entitlements; sourceTree = "<group>"; };
+		217AA8ED259434A9001776F1 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		21951C8C2594507C0096BBF8 /* ToolbarItemIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ToolbarItemIcon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		217792B62593D3490089BE66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217792CC2593D34A0089BE66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217AA8EE259434B3001776F1 /* SafariServices.framework in Frameworks */,
+				217792D52593D34A0089BE66 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		217792B02593D3490089BE66 = {
+			isa = PBXGroup;
+			children = (
+				217792BB2593D3490089BE66 /* MCLProxy */,
+				217792D62593D34A0089BE66 /* MCLProxy Extension */,
+				217792D32593D34A0089BE66 /* Frameworks */,
+				217792BA2593D3490089BE66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		217792BA2593D3490089BE66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				217792B92593D3490089BE66 /* MCL Proxy.app */,
+				217792CF2593D34A0089BE66 /* MCL Proxy Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		217792BB2593D3490089BE66 /* MCLProxy */ = {
+			isa = PBXGroup;
+			children = (
+				217792BD2593D3490089BE66 /* AppDelegate.h */,
+				217792BE2593D3490089BE66 /* AppDelegate.m */,
+				217792C62593D34A0089BE66 /* Assets.xcassets */,
+				217792C82593D34A0089BE66 /* Info.plist */,
+				217792C92593D34A0089BE66 /* main.m */,
+				217792BC2593D3490089BE66 /* MCLProxy.entitlements */,
+			);
+			path = MCLProxy;
+			sourceTree = "<group>";
+		};
+		217792D32593D34A0089BE66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				217792D42593D34A0089BE66 /* Cocoa.framework */,
+				217AA8ED259434A9001776F1 /* SafariServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		217792D62593D34A0089BE66 /* MCLProxy Extension */ = {
+			isa = PBXGroup;
+			children = (
+				217792D72593D34A0089BE66 /* SafariWebExtensionHandler.h */,
+				217792D82593D34A0089BE66 /* SafariWebExtensionHandler.m */,
+				217792EB2593D34A0089BE66 /* Info.plist */,
+				21951C8C2594507C0096BBF8 /* ToolbarItemIcon.png */,
+				217792EC2593D34A0089BE66 /* MCLProxyExtension.entitlements */,
+			);
+			path = "MCLProxy Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		217792B82593D3490089BE66 /* MCL Proxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217792F32593D34A0089BE66 /* Build configuration list for PBXNativeTarget "MCL Proxy" */;
+			buildPhases = (
+				217792B52593D3490089BE66 /* Sources */,
+				217792B62593D3490089BE66 /* Frameworks */,
+				217792B72593D3490089BE66 /* Resources */,
+				217792F22593D34A0089BE66 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				217792D22593D34A0089BE66 /* PBXTargetDependency */,
+			);
+			name = "MCL Proxy";
+			productName = MCLProxy;
+			productReference = 217792B92593D3490089BE66 /* MCL Proxy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		217792CE2593D34A0089BE66 /* MCL Proxy Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217792EF2593D34A0089BE66 /* Build configuration list for PBXNativeTarget "MCL Proxy Extension" */;
+			buildPhases = (
+				217792CB2593D34A0089BE66 /* Sources */,
+				217792CC2593D34A0089BE66 /* Frameworks */,
+				217792CD2593D34A0089BE66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MCL Proxy Extension";
+			productName = "MCLProxy Extension";
+			productReference = 217792CF2593D34A0089BE66 /* MCL Proxy Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		217792B12593D3490089BE66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					217792B82593D3490089BE66 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					217792CE2593D34A0089BE66 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 217792B42593D3490089BE66 /* Build configuration list for PBXProject "MCLProxy" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 217792B02593D3490089BE66;
+			productRefGroup = 217792BA2593D3490089BE66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				217792B82593D3490089BE66 /* MCL Proxy */,
+				217792CE2593D34A0089BE66 /* MCL Proxy Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		217792B72593D3490089BE66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217792C72593D34A0089BE66 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217792CD2593D34A0089BE66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21951C8D2594507C0096BBF8 /* ToolbarItemIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		217792B52593D3490089BE66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217792CA2593D34A0089BE66 /* main.m in Sources */,
+				217792BF2593D3490089BE66 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217792CB2593D34A0089BE66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217792D92593D34A0089BE66 /* SafariWebExtensionHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		217792D22593D34A0089BE66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 217792CE2593D34A0089BE66 /* MCL Proxy Extension */;
+			targetProxy = 217792D12593D34A0089BE66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		217792ED2593D34A0089BE66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-unused-parameter",
+				);
+			};
+			name = Debug;
+		};
+		217792EE2593D34A0089BE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-unused-parameter",
+				);
+			};
+			name = Release;
+		};
+		217792F02593D34A0089BE66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "MCLProxy Extension/MCLProxyExtension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94XJ98ESL8;
+				INFOPLIST_FILE = "MCLProxy Extension/Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = org.chrismarcellino.mclproxy.extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		217792F12593D34A0089BE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "MCLProxy Extension/MCLProxyExtension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94XJ98ESL8;
+				INFOPLIST_FILE = "MCLProxy Extension/Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = org.chrismarcellino.mclproxy.extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		217792F42593D34A0089BE66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MCLProxy/MCLProxy.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94XJ98ESL8;
+				INFOPLIST_FILE = MCLProxy/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = org.chrismarcellino.mclproxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		217792F52593D34A0089BE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MCLProxy/MCLProxy.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94XJ98ESL8;
+				INFOPLIST_FILE = MCLProxy/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = org.chrismarcellino.mclproxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		217792B42593D3490089BE66 /* Build configuration list for PBXProject "MCLProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217792ED2593D34A0089BE66 /* Debug */,
+				217792EE2593D34A0089BE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217792EF2593D34A0089BE66 /* Build configuration list for PBXNativeTarget "MCL Proxy Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217792F02593D34A0089BE66 /* Debug */,
+				217792F12593D34A0089BE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217792F32593D34A0089BE66 /* Build configuration list for PBXNativeTarget "MCL Proxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217792F42593D34A0089BE66 /* Debug */,
+				217792F52593D34A0089BE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 217792B12593D3490089BE66 /* Project object */;
+}
