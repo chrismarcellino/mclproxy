@@ -14,7 +14,7 @@
     NSString *displayName = [[NSBundle mainBundle] objectForInfoDictionaryKey:(id)kCFBundleNameKey];
     NSString *text = NSLocalizedString(@"To enable this extension, open Safari and go to the Safari "
                                        "menu > Preferences > Extensions and check the box next to MCL Proxy.\n\n"
-                                       "Then use the toolbar button in Safari to access pages through the proxy.", nil);
+                                       "Then use the padlock toolbar button in Safari to access pages through the proxy.", nil);
     
     NSAlert *alert = [[NSAlert alloc] init];
     [alert setMessageText:displayName];
