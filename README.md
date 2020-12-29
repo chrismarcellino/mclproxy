@@ -1,6 +1,6 @@
 # MCL Proxy Safari App Extension
 This is a Safari App Extension that allows MCL users to access academic journals through the institution's EZProxy service.
-Tagged release versions will be posted to the Apple App Store, or you can build and install yourself from latest source. 
+Release versions will be posted to the Apple App Store, or you can build and install yourself from latest source. 
 
 ## Installing
 
